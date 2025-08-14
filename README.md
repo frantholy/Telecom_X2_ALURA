@@ -4,7 +4,7 @@
 
 En esta parte 2 del proyecto se busca realizar un modelado predictivo para anticipar la cancelación de clientes en una empresa de telecomunicaciones. Buscando entender los factores que influyen en el abandono y proponer estrategias de retención efectivas.
 
-🔍 **Variable objetivo:** 
+### 🔍 Variable objetivo:
 
 La variable objtivo se encuentra desbalanceada, esto podría afectar al rendimiento de los modelos, es por esto que es bueno considerar técnicas de balanceo como SMOTE antes de entrenar.
 * Aproximadamente el **73.4%** de los clientes NO renuncian **(Churn = 0)**.
@@ -43,6 +43,7 @@ La variable objtivo se encuentra desbalanceada, esto podría afectar al rendimie
 - **KNN** tiene el peor desempeño general, lo que sugiere dificultades para capturar la estructura de los datos, posiblemente por **alta dimensionalidad o ruido**.
 
 ----------------------------------------
+## MEJOR MODELO REGRESIÓN LOGÍSTICA
 
 ## 🔹 Insights por característica:
 
